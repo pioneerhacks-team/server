@@ -13,7 +13,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, support_credentials=True)
 
-conn = connect(host="localhost", port=27017)
+conn = connect(host="localhost")
 db = conn.budget101
 
 

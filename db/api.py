@@ -44,7 +44,7 @@ def add_user(db, userData) -> int:
                 **userData,
                 "created_at": ts,
                 "data": {
-                    "budget": 0,
+                    "budget": 100,
                     "payments": {"recurrent": [], "single": []},
                 },
             }

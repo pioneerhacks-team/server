@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app, support_credentials=True)
 
 conn = connect(host="localhost")
-db = conn.budget101
+db = conn.payteach
 
 
 @app.route("/", methods=["GET"])
